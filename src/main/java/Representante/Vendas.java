@@ -25,6 +25,14 @@ public class Vendas {
     )
     private List<Modelo> modelosVendidos;
 
+    public <T> Vendas(int i, String corolla, String toyota, int i1, int i2, List<T> list) {
+
+    }
+
+    public Vendas() {
+
+    }
+
     // Getters e Setters
     public Long getId() {
         return id;

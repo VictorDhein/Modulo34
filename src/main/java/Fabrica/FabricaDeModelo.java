@@ -18,6 +18,13 @@ public class FabricaDeModelo {
     @OneToMany(mappedBy = "fabricaDeModelo", cascade = CascadeType.ALL)
     private List<Modelo> modelos;
 
+    public FabricaDeModelo(int i, String toyota) {
+    }
+
+    public FabricaDeModelo() {
+
+    }
+
     // Getters e Setters
     public Long getId() {
         return id;

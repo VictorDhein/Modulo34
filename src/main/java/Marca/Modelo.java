@@ -24,6 +24,14 @@ public class Modelo {
     @ManyToMany(mappedBy = "modelosVendidos")
     private List<Vendas> vendas;
 
+    public Modelo(String corolla, int i, String toyota, int i1, FabricaDeModelo fabrica1) {
+
+    }
+
+    public Modelo() {
+
+    }
+
     // Getters e Setters
     public Long getId() {
         return id;
